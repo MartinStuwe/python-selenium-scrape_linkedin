@@ -20,7 +20,6 @@ wait = WebDriverWait(driver, 10)
 jobtitles = []
 companies = []
 locations = []
-descriptions = []
 
 driver.get('https://www.linkedin.com/jobs/search?keywords="Fall+2024+Software+Intern&location=usa&geoId=&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0')
 driver.implicitly_wait(5)
